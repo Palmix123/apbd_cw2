@@ -7,13 +7,13 @@ Console.WriteLine("Hello, World3!");
 
 static double GetAverage(int[] numbers)
 {
-    double result = 0.0;
+    double zmienna = 0.0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        result += numbers[i];
+        zmienna += numbers[i];
     }
 
-    return result / numbers.Length;
+    return zmienna / numbers.Length;
 }
 
 int[] numbers = {1,2,3,421,123,12,2,12,12312};
